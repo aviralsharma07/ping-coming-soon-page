@@ -17,5 +17,6 @@ notifyButton.addEventListener("click", (event) => {
   } else {
     errorMessage.style.display = "none";
     emailInput.value = "";
+    emailInput.style.border = "1px solid hsl(223, 100%, 88%)";
   }
 });

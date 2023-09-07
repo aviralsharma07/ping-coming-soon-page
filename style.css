@@ -84,6 +84,10 @@ nav img {
   margin-bottom: 1rem;
 }
 
+.form #email:focus {
+  outline: none;
+}
+
 .form #email::placeholder {
   color: var(--pale-blue);
 }
